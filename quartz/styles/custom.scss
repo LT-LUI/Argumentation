@@ -1,3 +1,58 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/* Append to quartz/styles/custom.scss */
+article .fold-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+}
+
+article .fold-controls button {
+  background: transparent;
+  color: var(--darkgray);
+  border: 1px solid var(--lightgray);
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+article .fold-section.fold-collapsed > .fold-body,
+article li.fold-list-item.fold-collapsed > ul,
+article li.fold-list-item.fold-collapsed > ol {
+  display: none;
+}
+
+article .fold-toggle {
+  background: transparent;
+  border: 0;
+  color: var(--secondary);
+  cursor: pointer;
+  padding: 0 0.15rem;
+  font: inherit;
+}
+
+article .fold-heading-toggle {
+  margin-left: -1.2rem;
+  margin-right: 0.25rem;
+}
+
+article li.fold-list-item {
+  position: relative;
+}
+
+article li.fold-list-item > .fold-list-toggle {
+  position: absolute;
+  left: -1.65rem;
+  top: 0;
+  font-size: 0.85rem;
+}
+
+article .fold-toggle:focus-visible,
+article .fold-controls button:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
