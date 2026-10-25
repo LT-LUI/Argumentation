@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: github.com/LT-LUI/Argumentation
+  baseUrl: lt-lui.github.io/Argumentation
   ignorePatterns:
     - private
     - templates
