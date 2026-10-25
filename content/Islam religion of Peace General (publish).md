@@ -1,7 +1,7 @@
 ## My opening:
 In the past few years, conflicts involving Muslims, Islam, and the West seem to have become increasingly prominent. I've realized that although I have opinions on some of these issues, I don't actually know enough about Islam to judge how reasonable my opinions are.
 
-So I came across this rather popular debate on YouTube, **“Is Islam a Religion of Peace?”**, and thought it could be a good starting point.
+So I came across this rather popular debate on YouTube, **[“Is Islam a Religion of Peace?”](https://www.youtube.com/watch?v=rh34Xsq7D_A)**, and thought it could be a good starting point.
 
 But apart from understanding Islam, there's something else I'd like to work on.
 
