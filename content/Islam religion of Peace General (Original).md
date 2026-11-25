@@ -146,7 +146,7 @@ Over four years, I learned Arabic, memorized half the Quran, studied theology an
 
 Help us redefine this debate and reject the frameworks imposed by extremists. The civil-rights movement also challenged imposed frameworks. Vote to support those working for peace.
 ### Extracted arguments:
-While his speech is long, there are so many relevant arguments.
+While his speech is long, there are so not many relevant arguments.
 - (MN1) To reject that the extremists definition of Islam that it is a religion of conquest, instead to help the effort to reclaim the Islam as a religion of peace
 	- He's not exactly argue that Islam is a religion of peace but an appeal for action
 	- If this argument has any implication to what he thinks about Islam, it would be that it implicit indicated he has a constructionist view and and thus believe we can "influence what Islam becomes", rather than peace as an immutable property of Islam
@@ -201,7 +201,13 @@ Islam is unstable. A thousand years ago the Mu'tazilites tried to reform it and 
 _______________________________
 
 ## Closing remarks:
+- I just have another thought. I guess the end point of the a discussion or an argument would be when it reaches a point where we can not easily decide on a premise, for the people involved or even the society as a whole, e.g. the ontological question or representative question. And by analyzing and dissecting the arguments we can identify those "edges" then let people decide where to stand based on their belief.
 - <font color="#ff0000"><b>This topic while highly controversial and provocative, it's a "bottomless", it's a rabbit hole. Perhaps it would be more "satisfying" if we choose a topic that we can somehow get closer to the "truth". Maybe one like Lindsay Clancy or Cornell-7, the recent French riot, or some others, and not one that is shown to be a 1000 unresolved philosophical question.</b></font>
+- On X, facebook, youtube, other social media, there are full of different narratives. People can choose whatever they want to believe. I think my task is then to help people to filter to find the most sensible ones.
+- If a lot of the disagreement were originated from the 4 more fundamental questions (ontology, representation, causation, consequentialism), which made the discussion rather semantic, philosophical, scientific, academic. I suppose there would be more relevant topics, perhaps  "THB the West is Right to be Suspicious of Islam"? Would this one also eventually link back to the foundational question? (<font color="#ff0000">Having said that, I should review my comments for the 4 openings first, maybe not all were related.</font>)
+- I guess the end point of the a discussion or an argument would be when it reaches a point where we can not easily decide on a premise, for the people involved or even the society as a whole, e.g. the ontological question or representative question. And by analyzing and dissecting the arguments we can identify those "edges" then let people decide where to stand based on their belief.
+- <font color="#245bdb">Another aspect is that if AIs can do the same similarly well, then what's the point of my blog, channel, website …… whatever form it'll be in. To clarify, the concept I have right now (the most successful and ambitious version) is to have a centralized argument database with the corresponding analysis, a bit like a reddit for arguments related to social/political (could be expanded of course) issues. This idea was more useful before AIs, where it'll need to be a collective effort to analyse then share the wide range of issues. Not as much if AIs can now generate a somewhat reliable analysis. So unless I can prove the analysis on my site to be more trustworthy or the arguments are organized in a clearer manner.</font>
+- The standard form could be more helpful when the argument is even more illusive or subtle 
 - What is the proper way of addressing this motion?
 	- Is it essential to address the 4-5 foundational philosophical question?
 	- The limitation of the format of the debate?
