@@ -45,6 +45,7 @@ export default (() => {
         <meta charSet="utf-8" />
         <script defer src={joinSegments(baseDir, "static/folding.js")} />
         <script defer src={joinSegments(baseDir, "static/argument-reader.js")} />
+        <script defer src={joinSegments(baseDir, "static/annotated-transcript.js")} />
         <link rel="stylesheet" href={joinSegments(baseDir, "static/argument-reader.css")} />
         {coreStylesheet && <link rel="preload" href={coreStylesheet} as="style" />}
         {coreScript && coreScript.contentType === "external" && (

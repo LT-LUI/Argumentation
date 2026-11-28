@@ -1,4 +1,5 @@
 import esbuild from "esbuild"
+import { argumentAnnotations } from "./argumentAnnotations"
 import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
 import { Processor, unified } from "unified"
@@ -41,6 +42,7 @@ export function createHtmlProcessor(ctx: BuildCtx): QuartzHtmlProcessor {
       .use(remarkRehype, { allowDangerousHtml: true })
       // HTML AST -> HTML AST transforms
       .use(transformers.flatMap((plugin) => plugin.htmlPlugins?.(ctx) ?? []))
+      .use(argumentAnnotations)
   )
 }
 
