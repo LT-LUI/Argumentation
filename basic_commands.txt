@@ -1,0 +1,8 @@
+# 1. Enter your Quartz project
+cd ~/Argumentation
+
+# 2. Preview your website locally (optional)
+npx quartz build --serve
+
+# 3. Publish your changes to GitHub
+npx quartz sync

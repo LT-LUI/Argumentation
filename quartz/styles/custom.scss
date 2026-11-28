@@ -56,3 +56,46 @@ article .fold-controls button:focus-visible {
   outline: 2px solid var(--secondary);
   outline-offset: 2px;
 }
+
+// Opt-in transcript reader. The published HTML starts with only the speech visible.
+article.annotated-transcript {
+  .callout, comment, note, .ar-note { display: none; }
+  &.ar-comments .ar-note { display: inline; }
+  &.ar-comments .ar-open {
+    display: inline;
+    color: var(--secondary);
+    padding-inline: .35em;
+    font-style: italic;
+  }
+  &.ar-argument [data-kinds~="argument"] {
+    background: color-mix(in srgb, #ab88dc 28%, transparent);
+  }
+  &.ar-argument [data-arguments]:not([data-arguments=""]) { cursor: pointer; }
+  &.ar-definition [data-kinds~="definition"] { border-bottom: 2px dashed #4eab9c; }
+  &.ar-evidence [data-kinds~="evidence"] { text-decoration: underline 2px #799dc6; }
+  &.ar-important [data-kinds~="important"] { box-shadow: inset 0 -.35em #c598335f; }
+  .ar-selected { outline: 1px solid var(--secondary); }
+  .ar-controls { margin: .75rem 0; }
+  .ar-controls summary { cursor: pointer; color: var(--secondary); }
+  .ar-controls label, .ar-controls select { display: inline-block; margin: .5rem .8rem 0 0; }
+  .ar-controls select[hidden] { display: none; }
+  .ar-note { font: inherit; font-size: .75em; cursor: pointer; vertical-align: super; }
+}
+
+.ar-panel:not([hidden]) {
+  min-width: 0;
+  overflow: auto;
+  padding: .75rem;
+  border-inline-start: 2px solid var(--secondary);
+  background: var(--light);
+  details + details { margin-top: 1rem; }
+  summary { cursor: pointer; color: var(--secondary); font-weight: 600; }
+  table { border-collapse: collapse; }
+  th, td { padding: .4rem; text-align: left; vertical-align: top; }
+}
+@media (min-width: 1200px) {
+  .page > #quartz-body:has(.ar-panel:not([hidden])) {
+    grid-template-columns: minmax(175px, .55fr) minmax(0, 1.55fr) minmax(0, 1fr);
+  }
+  .sidebar.right:has(.ar-panel:not([hidden])) > :not(.ar-panel) { display: none; }
+}

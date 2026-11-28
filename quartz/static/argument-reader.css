@@ -1,0 +1,34 @@
+.argument-reader {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.argument-reader label { display: block; font-weight: 600; color: var(--dark); }
+.argument-reader select {
+  font: inherit;
+  color: var(--dark);
+  background: var(--light);
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+  padding: .3rem;
+  max-width: 100%;
+}
+.argument-reader .callout { margin: .75rem 0; }
+.argument-reader [hidden] { display: none !important; }
+.argument-reader [role="button"] {
+  cursor: pointer;
+  text-decoration: underline dotted var(--gray);
+  text-underline-offset: .2em;
+}
+.argument-reader .reader-layer { background: var(--textHighlight); }
+.argument-reader[data-layer="Argument"] .reader-layer { background: color-mix(in srgb, #db6f6f 28%, transparent); }
+.argument-reader[data-layer="Evidence"] .reader-layer { background: color-mix(in srgb, #50a480 30%, transparent); }
+.argument-reader .reader-match, .argument-reader [aria-pressed="true"] {
+  background: var(--highlight);
+  box-shadow: inset 0 -2px var(--secondary);
+}
+.argument-reader :focus-visible { outline: 2px solid var(--secondary); outline-offset: 2px; }
+@media (max-width: 720px) {
+  .argument-reader { grid-template-columns: 1fr; }
+}
